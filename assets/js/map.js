@@ -1,11 +1,11 @@
 window.map = {
     mapType: 'ROADMAP',
-    mapZoom: 15,
+    mapZoom: 17,
     mapStyle: 'flat',
     mapScroll: false,
     marker: 'show',
-    lat: '51.5171',
-    lng: '0.1062',
+    lat: '43.3196159',
+    lng: '21.8976073',
     markerURL: 'assets/images/marker.png'
 };
 /* ========================================================================

@@ -23,7 +23,7 @@
   color: #9bbb40;
 }
 .swatch-tilda-white-green a:hover, [class*="swatch-"] .swatch-tilda-white-green a:hover {
-  color: #df2e1b;
+  color: #5B770E;
 }
 .swatch-tilda-white-green small, [class*="swatch-"] .swatch-tilda-white-green small {
   color: #666;
@@ -62,7 +62,7 @@
   background: #9bbb40;
 }
 .swatch-tilda-white-green .active, [class*="swatch-"] .swatch-tilda-white-green .active {
-  color: #df2e1b;
+  color: #5B770E;
 }
 .swatch-tilda-white-green .btn-primary, .swatch-tilda-white-green button, .swatch-tilda-white-green input[type="submit"], [class*="swatch-"] .swatch-tilda-white-green .btn-primary, [class*="swatch-"] .swatch-tilda-white-green button, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"] {
   background-color: #9bbb40;
