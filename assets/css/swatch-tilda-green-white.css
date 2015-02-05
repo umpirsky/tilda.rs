@@ -433,7 +433,7 @@
   color: #9bbb40;
 }
 .swatch-tilda-green-white .overlay, [class*="swatch-"] .swatch-tilda-green-white .overlay {
-  background: rgba(0, 0, 0, 0.075) !important;
+  background: #87A337 !important;
 }
 .swatch-tilda-green-white .post-media, [class*="swatch-"] .swatch-tilda-green-white .post-media {
   background-color: rgba(0, 0, 0, 0.075) !important;
@@ -546,8 +546,8 @@
   background-color: #9bbb40;
 }
 .swatch-tilda-green-white .pricing-head, .swatch-tilda-green-white .pricing-body, [class*="swatch-"] .swatch-tilda-green-white .pricing-head, [class*="swatch-"] .swatch-tilda-green-white .pricing-body {
-  background: #73bfc1;
-  color: #fff;
+  background: #fff;
+  color: #9bbb40;
 }
 .swatch-tilda-green-white .pricing-head h4, .swatch-tilda-green-white .pricing-head small, .swatch-tilda-green-white .pricing-body h4, .swatch-tilda-green-white .pricing-body small, [class*="swatch-"] .swatch-tilda-green-white .pricing-head h4, [class*="swatch-"] .swatch-tilda-green-white .pricing-head small, [class*="swatch-"] .swatch-tilda-green-white .pricing-body h4, [class*="swatch-"] .swatch-tilda-green-white .pricing-body small {
   color: #fff;
