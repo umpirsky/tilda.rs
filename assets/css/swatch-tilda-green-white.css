@@ -243,11 +243,11 @@
     border-radius: 0;
   }
   .swatch-tilda-green-white.navbar .nav > li > a:hover, [class*="swatch-"] .swatch-tilda-green-white.navbar .nav > li > a:hover {
-    background: #e43725;
+    background: #87A337;
     color: #fff;
   }
   .swatch-tilda-green-white.navbar .dropdown-menu, [class*="swatch-"] .swatch-tilda-green-white.navbar .dropdown-menu {
-    background: #e43725;
+    background: #87A337;
     border-radius: 0;
     box-shadow: none;
   }
@@ -262,7 +262,7 @@
     background: #d62c1a;
   }
   .swatch-tilda-green-white .dropdown-submenu > ul > li > a:hover, [class*="swatch-"] .swatch-tilda-green-white .dropdown-submenu > ul > li > a:hover {
-    background: #e43725;
+    background: #87A337;
   }
   .swatch-tilda-green-white .dropdown-submenu > a:after, [class*="swatch-"] .swatch-tilda-green-white .dropdown-submenu > a:after {
     border-left-color: transparent !important;
