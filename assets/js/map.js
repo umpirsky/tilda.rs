@@ -1,7 +1,6 @@
 window.map = {
     mapType: 'ROADMAP',
     mapZoom: 17,
-    mapStyle: 'flat',
     mapScroll: false,
     marker: 'show',
     lat: '43.3196159',
@@ -109,74 +108,6 @@ jQuery(document).ready(function( $ ) {
         function createMap( position ) {
             var map;
 
-            var style = [{
-                    'stylers': [{
-                        'visibility': 'off'
-                    }]
-                },{
-                    'featureType': 'road',
-                        'stylers': [{
-                        'visibility': 'on'
-                    },{
-                        'color': '#ffffff'
-                    }]
-                },{
-                    'featureType': 'road.arterial',
-                        'stylers': [{
-                        'visibility': 'on'
-                    },{
-                        'color': '#f1c40f'
-                    }]
-                },{
-                    'featureType': 'road.highway',
-                        'stylers': [{
-                        'visibility': 'on'
-                    },{
-                        'color': '#f1c40f'
-                    }]
-                },{
-                    'featureType': 'landscape',
-                        'stylers': [{
-                        'visibility': 'on'
-                    },{
-                        'color': '#ecf0f1'
-                    }]
-                },{
-                    'featureType': 'water',
-                        'stylers': [{
-                        'visibility': 'on'
-                    },{
-                        'color': '#73bfc1'
-                    }]
-                },{},{
-                    'featureType': 'road',
-                        'elementType': 'labels',
-                        'stylers': [{
-                        'visibility': 'off'
-                    }]
-                },{
-                    'featureType': 'poi.park',
-                        'elementType': 'geometry.fill',
-                        'stylers': [{
-                        'visibility': 'on'
-                    },{
-                        'color': '#2ecc71'
-                    }]
-                },{
-                    'elementType': 'labels',
-                        'stylers': [{
-                        'visibility': 'off'
-                    }]
-                },{
-                    'featureType': 'landscape.man_made',
-                        'elementType': 'geometry',
-                        'stylers': [{
-                        'weight': 0.9
-                    },{
-                        'visibility': 'off'
-                    }]
-                }];
-
             var options = {
                 zoom: parseInt( mapData.mapZoom, 10 ),
                 center: position,
@@ -194,12 +125,6 @@ jQuery(document).ready(function( $ ) {
                 } else {
                     marker.setAnimation(google.maps.Animation.BOUNCE);
                 }
-            }
-
-            if( mapData.mapStyle === 'flat' ) {
-                map.setOptions({
-                    styles: style
-                });
             }
 
             if( mapData.marker === 'show' ) {
