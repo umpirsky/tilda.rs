@@ -235,7 +235,7 @@
   color: #fff !important;
 }
 .swatch-tilda-white-green.navbar .nav-highlight > a:hover:after, [class*="swatch-"] .swatch-tilda-white-green.navbar .nav-highlight > a:hover:after {
-  background: rgba(231, 76, 60, 0.8);
+  background: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green.navbar li.nav-highlight-ghost > a, [class*="swatch-"] .swatch-tilda-white-green.navbar li.nav-highlight-ghost > a {
   color: #9bbb40;
@@ -244,10 +244,10 @@
   border: 1px solid #9bbb40;
 }
 .swatch-tilda-white-green.navbar li.nav-highlight-ghost > a:hover, [class*="swatch-"] .swatch-tilda-white-green.navbar li.nav-highlight-ghost > a:hover {
-  color: rgba(231, 76, 60, 0.8);
+  color: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green.navbar li.nav-highlight-ghost > a:hover:after, [class*="swatch-"] .swatch-tilda-white-green.navbar li.nav-highlight-ghost > a:hover:after {
-  border-color: rgba(231, 76, 60, 0.8);
+  border-color: rgb(135, 163, 55);
 }
 @media (max-width: 979px) {
   .swatch-tilda-white-green.navbar .nav > li > a, [class*="swatch-"] .swatch-tilda-white-green.navbar .nav > li > a {
@@ -297,7 +297,7 @@
   color: #fff;
 }
 .swatch-tilda-white-green .pagination > .active > a, .swatch-tilda-white-green .pagination > .active > span, .swatch-tilda-white-green .pagination > li > a:hover, [class*="swatch-"] .swatch-tilda-white-green .pagination > .active > a, [class*="swatch-"] .swatch-tilda-white-green .pagination > .active > span, [class*="swatch-"] .swatch-tilda-white-green .pagination > li > a:hover {
-  background: rgba(231, 76, 60, 0.8);
+  background: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green .pagination > .active > a i, .swatch-tilda-white-green .pagination > .active > span i, .swatch-tilda-white-green .pagination > li > a:hover i, [class*="swatch-"] .swatch-tilda-white-green .pagination > .active > a i, [class*="swatch-"] .swatch-tilda-white-green .pagination > .active > span i, [class*="swatch-"] .swatch-tilda-white-green .pagination > li > a:hover i {
   color: #fff;
@@ -309,10 +309,10 @@
   border-right-color: #9bbb40;
 }
 .swatch-tilda-white-green .pagination > li:first-child a:hover, [class*="swatch-"] .swatch-tilda-white-green .pagination > li:first-child a:hover {
-  background: rgba(231, 76, 60, 0.8);
+  background: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green .pagination > li:first-child a:hover:after, [class*="swatch-"] .swatch-tilda-white-green .pagination > li:first-child a:hover:after {
-  border-right-color: rgba(231, 76, 60, 0.8);
+  border-right-color: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green .pagination > li:last-child i, [class*="swatch-"] .swatch-tilda-white-green .pagination > li:last-child i {
   color: #fff;
@@ -321,10 +321,10 @@
   border-left-color: #9bbb40;
 }
 .swatch-tilda-white-green .pagination > li:last-child a:hover, [class*="swatch-"] .swatch-tilda-white-green .pagination > li:last-child a:hover {
-  background: rgba(231, 76, 60, 0.8);
+  background: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green .pagination > li:last-child a:hover:after, [class*="swatch-"] .swatch-tilda-white-green .pagination > li:last-child a:hover:after {
-  border-left-color: rgba(231, 76, 60, 0.8);
+  border-left-color: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green .tooltip-inner, [class*="swatch-"] .swatch-tilda-white-green .tooltip-inner {
   background-color: #9bbb40;
@@ -459,7 +459,7 @@
   color: #fff;
 }
 .swatch-tilda-white-green .social-icons li a:not([data-iconcolor]):hover, .swatch-tilda-white-green .social-share li a:not([data-iconcolor]):hover, [class*="swatch-"] .swatch-tilda-white-green .social-icons li a:not([data-iconcolor]):hover, [class*="swatch-"] .swatch-tilda-white-green .social-share li a:not([data-iconcolor]):hover {
-  background-color: rgba(231, 76, 60, 0.8);
+  background-color: rgb(135, 163, 55);
 }
 .swatch-tilda-white-green .social-simple li a i, [class*="swatch-"] .swatch-tilda-white-green .social-simple li a i {
   color: #9bbb40;
