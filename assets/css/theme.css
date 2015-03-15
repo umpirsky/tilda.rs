@@ -5640,12 +5640,15 @@ pre {
 }
 
 .pricing-price h4 {
-  font-size: 45px;
+  font-size: 25px;
   font-weight: bold;
   padding: 24px;
   line-height: 1em;
   position: relative;
   text-indent: 14px;
+}
+.pricing-price h4 span {
+	font-size: 32px;
 }
 .pricing-price h4 small {
   display: inline-block;
