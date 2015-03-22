@@ -562,7 +562,7 @@ jQuery(document).ready(function( $ ) {
         // if we are going up start from -1 to make sure event triggers
         var offset = direction === 'up' ? -($section.height() / 2) : 0;
         var menuHeight = parseInt(scriptData.navbarHeight);
-        if( menu.length && menu.hasClass('navbar-sticky') && menu.hasClass('navbar-scrolled') ){
+        if( menu.length && menu.hasClass('navbar-sticky')){
             menuHeight = parseInt(scriptData.navbarScrolled);
         }
         var sectionOffset = $section.offset().top;
@@ -669,8 +669,6 @@ jQuery(document).ready(function( $ ) {
             offset: -( parseInt( scriptData.navbarScrolledPoint ) + menuOffset ),
             handler: function(direction) {
                 // add / remove scrolled class
-                menuContainer.toggleClass('navbar-scrolled');
-
                 menuContainer.one('MSTransitionEnd webkitTransitionEnd oTransitionEnd transitionend', function(){
                     // refresh waypoints only once transition ends in order to get correct offsets for sections.
                     if( !menuContainer.hasClass( 'refreshing' ) ) {
