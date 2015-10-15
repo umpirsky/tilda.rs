@@ -69,7 +69,7 @@
   color: #fff;
 }
 .swatch-tilda-white-green .btn-primary:hover, .swatch-tilda-white-green button:hover, .swatch-tilda-white-green input[type="submit"]:hover, [class*="swatch-"] .swatch-tilda-white-green .btn-primary:hover, [class*="swatch-"] .swatch-tilda-white-green button:hover, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"]:hover {
-  background-color: rgba(231, 76, 60, 0.9);
+  background-color: #87A337;
   color: #fff;
 }
 .swatch-tilda-white-green .btn-primary.btn-icon-right:after, .swatch-tilda-white-green button.btn-icon-right:after, .swatch-tilda-white-green input[type="submit"].btn-icon-right:after, [class*="swatch-"] .swatch-tilda-white-green .btn-primary.btn-icon-right:after, [class*="swatch-"] .swatch-tilda-white-green button.btn-icon-right:after, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"].btn-icon-right:after {
@@ -77,9 +77,6 @@
 }
 .swatch-tilda-white-green .btn-primary.btn-icon-left:after, .swatch-tilda-white-green button.btn-icon-left:after, .swatch-tilda-white-green input[type="submit"].btn-icon-left:after, [class*="swatch-"] .swatch-tilda-white-green .btn-primary.btn-icon-left:after, [class*="swatch-"] .swatch-tilda-white-green button.btn-icon-left:after, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"].btn-icon-left:after {
   border-right-color: #9bbb40;
-}
-.swatch-tilda-white-green .btn-primary.btn-icon-right:hover:after, .swatch-tilda-white-green button.btn-icon-right:hover:after, .swatch-tilda-white-green input[type="submit"].btn-icon-right:hover:after, [class*="swatch-"] .swatch-tilda-white-green .btn-primary.btn-icon-right:hover:after, [class*="swatch-"] .swatch-tilda-white-green button.btn-icon-right:hover:after, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"].btn-icon-right:hover:after {
-  border-left-color: rgba(231, 76, 60, 0.9);
 }
 .swatch-tilda-white-green .btn-primary.btn-icon-left:hover:after, .swatch-tilda-white-green button.btn-icon-left:hover:after, .swatch-tilda-white-green input[type="submit"].btn-icon-left:hover:after, [class*="swatch-"] .swatch-tilda-white-green .btn-primary.btn-icon-left:hover:after, [class*="swatch-"] .swatch-tilda-white-green button.btn-icon-left:hover:after, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"].btn-icon-left:hover:after {
   border-right-color: rgba(231, 76, 60, 0.9);
@@ -91,7 +88,7 @@
   border-right-color: rgba(255, 255, 255, 0.2);
 }
 .swatch-tilda-white-green .btn-primary .hex-alt:after, .swatch-tilda-white-green button .hex-alt:after, .swatch-tilda-white-green input[type="submit"] .hex-alt:after, [class*="swatch-"] .swatch-tilda-white-green .btn-primary .hex-alt:after, [class*="swatch-"] .swatch-tilda-white-green button .hex-alt:after, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"] .hex-alt:after {
-  border-left-color: rgba(255, 255, 255, 0.2);
+  border-left-color: #AFC966;
 }
 .swatch-tilda-white-green .btn-primary .hex-alt i, .swatch-tilda-white-green button .hex-alt i, .swatch-tilda-white-green input[type="submit"] .hex-alt i, [class*="swatch-"] .swatch-tilda-white-green .btn-primary .hex-alt i, [class*="swatch-"] .swatch-tilda-white-green button .hex-alt i, [class*="swatch-"] .swatch-tilda-white-green input[type="submit"] .hex-alt i {
   color: #fff !important;
