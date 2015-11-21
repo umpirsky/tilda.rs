@@ -39,19 +39,19 @@
                 </div>
                 <nav class="collapse navbar-collapse main-navbar" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown ">
+                        <li class="dropdown {% if 'free-start.html' == page.name %}active{% endif %}">
                             <a href="free-start.html" class="dropdown-toggle">Startuj besplatno</a>
                         </li>
-                        <li class="dropdown ">
+                        <li class="dropdown {% if 'services.html' == page.name %}active{% endif %}">
                             <a href="services.html" class="dropdown-toggle">Usluge</a>
                         </li>
-                        <li class="dropdown ">
+                        <li class="dropdown {% if 'gallery.html' == page.name %}active{% endif %}">
                             <a href="gallery.html" class="dropdown-toggle">Slike</a>
                         </li>
-                        <li class="dropdown ">
+                        <li class="dropdown {% if 'pricelist.html' == page.name %}active{% endif %}">
                             <a href="pricelist.html" class="dropdown-toggle">Cene</a>
                         </li>
-                        <li class="dropdown ">
+                        <li class="dropdown {% if 'contact.html' == page.name %}active{% endif %}">
                             <a href="contact.html" class="dropdown-toggle">Kontakt</a>
                         </li>
                     </ul>
