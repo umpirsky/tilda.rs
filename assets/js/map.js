@@ -5,7 +5,7 @@ window.map = {
     marker: 'show',
     lat: '43.3196159',
     lng: '21.8976073',
-    markerURL: 'assets/images/marker.png'
+    markerURL: '/assets/images/marker.png'
 };
 /* ========================================================================
  * Angle: map.js
