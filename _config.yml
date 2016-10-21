@@ -1,1 +1,14 @@
 permalink: pretty
+t:
+    en:
+        default:
+            title: Coworking Niš | Tilda
+            services: Services
+        services:
+            comfort: Comfort
+    sr:
+        default:
+            title: Coworking Niš | Tilda
+            services: Usluge
+        services:
+            comfort: Udobnost
