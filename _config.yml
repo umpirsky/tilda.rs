@@ -4,11 +4,13 @@ t:
         default:
             title: Coworking Niš | Tilda
             services: Services
+            contact: Contact
         services:
             comfort: Comfort
     sr:
         default:
             title: Coworking Niš | Tilda
             services: Usluge
+            contact: Kontakt
         services:
             comfort: Udobnost

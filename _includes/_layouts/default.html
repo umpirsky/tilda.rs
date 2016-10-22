@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="Coworking Niš | Tilda" />
+        <meta property="og:title" content="{{ site.t[page.lang].default.title }}" />
         <meta property="og:description" content="Tilda je coworking prostor koji nudi idealne uslove za rad pojedincima i manjim timovima."/>
         <meta property="og:image" content="http://www.tilda.rs/assets/images/fb-logo.png"/>
-        <title>Coworking Niš | Tilda</title>
+        <title>{{ site.t[page.lang].default.title }}</title>
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
@@ -43,7 +43,7 @@
                             <a href="/free-start" class="dropdown-toggle">Startuj besplatno</a>
                         </li>
                         <li class="dropdown {% if 'services.html' == page.name %}active{% endif %}">
-                            <a href="/services" class="dropdown-toggle">{{ site.t[page.lang].default.services  }}</a>
+                            <a href="/services" class="dropdown-toggle">{{ site.t[page.lang].default.services }}</a>
                         </li>
                         <li class="dropdown {% if 'gallery.html' == page.name %}active{% endif %}">
                             <a href="/gallery" class="dropdown-toggle">Slike</a>
@@ -52,7 +52,7 @@
                             <a href="/pricelist" class="dropdown-toggle">Cene</a>
                         </li>
                         <li class="dropdown {% if 'contact.html' == page.name %}active{% endif %}">
-                            <a href="/contact" class="dropdown-toggle">Kontakt</a>
+                            <a href="/contact" class="dropdown-toggle">{{ site.t[page.lang].default.contact }}</a>
                         </li>
                     </ul>
                 </nav>
