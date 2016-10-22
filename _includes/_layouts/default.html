@@ -40,19 +40,19 @@
                 <nav class="collapse navbar-collapse main-navbar" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown {% if 'free-start.html' == page.name %}active{% endif %}">
-                            <a href="/free-start" class="dropdown-toggle">Startuj besplatno</a>
+                            <a href="/{% if 'en' == page.lang %}en/free-start{% else %}startuj-besplatno{% endif %}" class="dropdown-toggle">Startuj besplatno</a>
                         </li>
                         <li class="dropdown {% if 'services.html' == page.name %}active{% endif %}">
-                            <a href="/services" class="dropdown-toggle">{{ site.t[page.lang].default.services }}</a>
+                            <a href="/{% if 'en' == page.lang %}en/services{% else %}usluge{% endif %}" class="dropdown-toggle">{{ site.t[page.lang].default.services }}</a>
                         </li>
                         <li class="dropdown {% if 'gallery.html' == page.name %}active{% endif %}">
-                            <a href="/gallery" class="dropdown-toggle">Slike</a>
+                            <a href="/{% if 'en' == page.lang %}en/gallery{% else %}slike{% endif %}" class="dropdown-toggle">Slike</a>
                         </li>
                         <li class="dropdown {% if 'pricelist.html' == page.name %}active{% endif %}">
-                            <a href="/pricelist" class="dropdown-toggle">Cene</a>
+                            <a href="/{% if 'en' == page.lang %}en/pricelist{% else %}cene{% endif %}" class="dropdown-toggle">Cene</a>
                         </li>
                         <li class="dropdown {% if 'contact.html' == page.name %}active{% endif %}">
-                            <a href="/contact" class="dropdown-toggle">{{ site.t[page.lang].default.contact }}</a>
+                            <a href="/{% if 'en' == page.lang %}en/contact{% else %}kontakt{% endif %}" class="dropdown-toggle">{{ site.t[page.lang].default.contact }}</a>
                         </li>
                     </ul>
                 </nav>
