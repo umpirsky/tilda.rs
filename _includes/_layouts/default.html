@@ -39,9 +39,6 @@
                 </div>
                 <nav class="collapse navbar-collapse main-navbar" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown {% if 'free-start.html' == page.name %}active{% endif %}">
-                            <a href="/{% if 'en' == page.lang %}en/free-start{% else %}startuj-besplatno{% endif %}" class="dropdown-toggle">Startuj besplatno</a>
-                        </li>
                         <li class="dropdown {% if 'services.html' == page.name %}active{% endif %}">
                             <a href="/{% if 'en' == page.lang %}en/services{% else %}usluge{% endif %}" class="dropdown-toggle">{{ site.t[page.lang].default.services }}</a>
                         </li>
